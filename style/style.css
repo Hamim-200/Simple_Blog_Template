@@ -1,0 +1,237 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Saira', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+    margin: 0% 3%;
+}
+
+/* NavBar Edit  */
+.nav-bar {
+    background-color: #222122;
+    padding-left: 45%;
+    display: flex;
+    /* display: block; */
+}
+
+.btn {
+    background-color: #3b3a3b;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: gray;
+    transition: 0.5s;
+}
+
+/* Header Edit */
+
+.top-banner {
+    /* background-image: url(images/img-1.jpg); */
+    background-image: url(/images/img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    margin-bottom: 50px;
+}
+
+.header-name {
+    padding-top: 100px;
+    display: flex;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header-part-width {
+    background-position: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: white;
+}
+
+.name-size {
+    font-size: 45px;
+}
+
+#name-colur {
+    color: #dd6e00;
+}
+
+.find-me-btn {
+    background-color: #3b3a3b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    border: solid 2px white;
+    color: white;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.find-me-btn:hover {
+    background-color: #000000;
+    transition: 0.3s;
+}
+
+.flex-item {
+    display: flex;
+    display: block;
+
+}
+
+.subject-tagline {
+    text-align: center;
+}
+
+.subject-tagline h1 {
+    font-size: 50px;
+    color: #dd6e00;
+    font-weight: 700;
+}
+
+.subject-tagline p {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    font-size: medium;
+    color: #999999;
+}
+
+.hobby-box {
+    display: flex;
+}
+
+.box-style {
+    border: solid #808080 2px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px;
+}
+
+.hobby-box h1 {
+    color: white;
+}
+
+.hobby-box p {
+    color: #808080;
+}
+
+.hobby-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.box-style img {
+    height: 80px;
+    width: 80px;
+}
+
+.my-performance {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.my-performance-style {
+    margin: 5px;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.my-performance-style h1 {
+    color: #dd6e00;
+    font-size: 30px;
+}
+
+.my-performance-style p {
+    color: #999999;
+}
+
+.my-performance img {
+    height: 400px;
+}
+
+.contact-me-width {
+    width: 80%;
+    padding: 50px;
+    margin: 50px;
+    background-color: #272727;
+}
+
+.contact-me {
+    display: flex;
+}
+
+.contact-me h1 {
+    color: #dd6e00;
+}
+
+.contact-me h4 {
+    color: #868686;
+}
+
+.frome input {
+    background: #383333;
+    margin: 0 5px 5px;
+    border: none;
+    width: 200px;
+    padding: 10px;
+}
+
+.email input {
+    width: 434px;
+}
+
+.frome textarea {
+    background: #383333;
+    width: 454px;
+    border: none;
+    color: white;
+}
+
+.form-button {
+    background-color: #dd6e00;
+    padding: 5px 10px 5px 10px;
+    color: #e6e6e6;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-size: large;
+}
+
+.form-button:hover {
+    background-color: #a05000;
+    transition: 0.3s;
+}
+
+footer {
+    display: flex;
+    padding-left: 30%;
+    text-align: center;
+    color: #999999;
+}
